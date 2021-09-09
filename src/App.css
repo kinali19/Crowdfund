@@ -1,0 +1,6 @@
+.card{
+    width: 40rem;
+}
+.progress-bar{
+    background-color: hsl(176, 50%, 47%) !important;
+}

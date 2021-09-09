@@ -1,0 +1,55 @@
+
+img.rounded-circle{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    z-index: 9;
+    bottom: calc(100% - 25px);
+}
+.card-body{
+    padding: 2rem;
+}
+.h5{
+    font-weight: bold;
+}
+.card-text{
+    font-size: 14px;
+    color:hsl(0, 0%, 48%);
+}
+.btnProject, .btnProject:hover, .btnProject:active{
+    background-color:hsl(176, 72%, 28%);
+    border-radius: 2rem;
+    padding:.2rem 2rem;
+    font-size: 12px;
+    color: #fff !important;
+}
+.btnBookmark{
+    background-color: #f4f4f4;
+    border-radius: 2rem;
+    min-height: 56px;
+    position: relative;
+    padding:.2rem 2rem;
+    border: none;
+}
+.btnBookmark:focus{
+    box-shadow: none;
+}
+.btnBookmark svg{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.btnBookmark span{    
+    padding-left:2rem;
+    font-size: 14px;
+    color:hsl(0, 0%, 48%);
+    font-weight: 700;
+}
+.btnBookmark.active span{
+    color: hsl(176, 72%, 28%);
+}
+
+.btnBookmark.active img{
+    filter:hsl(176, 72%, 28%);
+}

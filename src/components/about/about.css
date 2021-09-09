@@ -1,0 +1,18 @@
+.btnReward{
+    background-color: hsl(176, 50%, 47%);
+    padding: .75rem 2rem;
+    border-radius: 2rem;
+    font-size: 12px;
+    color: #fff;
+    font-weight: bold;
+}
+.btnReward:hover , .btnReward:focus{
+    background-color:hsl(176, 72%, 28%);
+    color: #fff;
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 778px) {
+   .borderR{ border-right: 1px solid #dee2e6!important;}
+}
+
